@@ -13,7 +13,7 @@
 
 .myBtn {
     bottom: 10px;
-    right: 10%;
+    right: 0;
     width: 50px;
     height: 50px;
     z-index: 5;
@@ -242,8 +242,7 @@ nav ul li a:hover::before {
     transform: scale(0.8);
 }
 
-.sec-2-slider .slick-slide.slick-current img,
-img {
+.sec-2-slider .slick-slide.slick-current img {
     display: block !important;
 }
 
@@ -438,6 +437,10 @@ mw_600 {
     max-width: 450px;
 }
 
+.cur-pointer {
+    cursor: pointer;
+}
+
 .pb-100 {
     padding-bottom: 100px;
 }
@@ -506,6 +509,7 @@ mw_600 {
 
 .slide-8-img {
     width: 25% !important;
+    height: 25% !important;
 }
 
 .slide-8-dot .slick-dots li .slick-active button:before {
@@ -601,6 +605,10 @@ mw_600 {
 /* footer */
 .mw_400 {
     max-width: 400px;
+}
+
+.d_none {
+    display: none;
 }
 
 .footer-logo {
@@ -865,7 +873,7 @@ footer ul li a:hover::before {
 
     .myBtn {
         bottom: 20px;
-        right: 40px;
+        right: 0;
         width: 50px;
         height: 50px;
         z-index: 5;
